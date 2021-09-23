@@ -4,6 +4,10 @@ public class Heroi {
     private String nome;
     private double vida;
 
+    public Heroi() {
+
+    }
+
     public Heroi(String nome, double vida) {
         this.nome = nome;
         this.vida = vida;
@@ -20,10 +24,11 @@ public class Heroi {
         receberDano = vida;
 
         //Exibir vida
-
-        public void exibir ( double exibirVida){
-            exibirVida = vida;
-        }
-
     }
+
+    public void exibir(double exibirVida) {
+        exibirVida = vida;
+    }
+
 }
+
