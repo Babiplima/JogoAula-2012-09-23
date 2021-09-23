@@ -1,4 +1,6 @@
 package Inimigos;
 
-public class InimigosVoadores {
+public class InimigosVoadores extends Inimigos {
+    private double danoTiro;
+    private double aplicarDano;
 }
