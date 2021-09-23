@@ -1,21 +1,22 @@
-package com.company.Jogo;
+package Inimigos;
 
-//Atributos
+public class Inimigos {
 
-public class Heroi {
+    //Atributos
+
     private String nome;
     private double vida;
 
     //Métodos contrutores
 
-    public Heroi() {
-
+    public Inimigos() {
     }
 
-    public Heroi(String nome, double vida) {
+    public Inimigos(String nome, double vida) {
         this.nome = nome;
         this.vida = vida;
     }
+
 
     // Método trocar
 
