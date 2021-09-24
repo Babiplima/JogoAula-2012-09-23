@@ -9,7 +9,6 @@ public class Heroi {
     //Métodos contrutores
 
     public Heroi() {
-
     }
 
     public Heroi(String nome, double vida) {
@@ -42,7 +41,7 @@ public class Heroi {
     //Receber dano
 
     public void receber(double receberDano) {
-        receberDano = vida;
+        this.vida = this.vida - receberDano;
 
         //Exibir vida
     }
@@ -50,6 +49,5 @@ public class Heroi {
     public void exibir(double exibirVida) {
         exibirVida = vida;
     }
-
 }
 

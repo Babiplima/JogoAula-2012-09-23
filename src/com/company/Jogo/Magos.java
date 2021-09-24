@@ -1,12 +1,40 @@
 package com.company.Jogo;
 
 public class Magos extends Heroi {
-    private double poderMagico;
-    private double aplicarMagia;
 
-    public Magos(double poderMagico, double aplicarMagia){
+    //Atributos
+
+    private double poderMagico;
+
+    //Métodos construtores
+
+   public Magos(){
+
+   }
+
+    public Magos(double poderMagico) {
+        this.poderMagico = poderMagico;
+    }
+
+    public Magos(String nome, double vida, double poderMagico) {
         super(nome, vida);
         this.poderMagico = poderMagico;
-        this.aplicarMagia = aplicarMagia;
+    }
+
+    //Métodos Getters e Setters
+
+    public double getPoderMagico() {
+        return poderMagico;
+    }
+
+    public void setPoderMagico(double poderMagico) {
+        this.poderMagico = poderMagico;
+    }
+
+    //Método Aplicar Magia
+
+    public double aplicarMagia(){
+       return poderMagico;
     }
 }
+

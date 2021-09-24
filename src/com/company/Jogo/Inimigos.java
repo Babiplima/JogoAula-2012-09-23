@@ -1,4 +1,4 @@
-package Inimigos;
+package com.company.Jogo;
 
 public class Inimigos {
 
@@ -16,7 +16,7 @@ public class Inimigos {
         this.nome = nome;
         this.vida = vida;
     }
-    //Get e set
+    //Getters e setters
 
     public String getNome() {
         return nome;
@@ -34,12 +34,13 @@ public class Inimigos {
         this.vida = vida;
     }
 
-
-    // Método trocar
+    // Método trocar nome
 
     public void trocar(String trocarNome) {
+
         trocarNome = nome;
     }
+
     //Receber dano
 
     public void receber(double receberDano) {
@@ -49,6 +50,7 @@ public class Inimigos {
     }
 
     public void exibir(double exibirVida) {
+
         exibirVida = vida;
     }
 
